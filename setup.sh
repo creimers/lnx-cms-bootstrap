@@ -8,3 +8,4 @@ echo "ssh key copied to clipboard..."
 # VIMRC
 rm -f ~/.vimrc
 ln -s ~/.bootstrap/.vimrc ~/.vimrc
+vim +PluginInstall +qall now
